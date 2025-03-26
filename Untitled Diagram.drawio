@@ -1,9 +1,56 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="Page-1" id="niKij2x4i4lBxyainWf-">
-    <mxGraphModel>
+    <mxGraphModel dx="1614" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="G7eaZMndY8j_dLDffPqd-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G7eaZMndY8j_dLDffPqd-1" target="G7eaZMndY8j_dLDffPqd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G7eaZMndY8j_dLDffPqd-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G7eaZMndY8j_dLDffPqd-1" target="G7eaZMndY8j_dLDffPqd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G7eaZMndY8j_dLDffPqd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G7eaZMndY8j_dLDffPqd-1" target="G7eaZMndY8j_dLDffPqd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G7eaZMndY8j_dLDffPqd-1" value="ULMFit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G7eaZMndY8j_dLDffPqd-2" value="Step 1 :&amp;nbsp;&lt;div&gt;Pre training training large corpus to capture broad language knowledge&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="G7eaZMndY8j_dLDffPqd-4" value="&lt;div&gt;Step 2:&amp;nbsp;&lt;/div&gt;Fine Tuning&amp;nbsp; on&amp;nbsp; a task specific dataset using discriminative fine tuning&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="170" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="G7eaZMndY8j_dLDffPqd-6" value="&lt;div&gt;Step 3:&lt;/div&gt;Gradual unfreezing to adapt model while preserving&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="170" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="G7eaZMndY8j_dLDffPqd-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="G7eaZMndY8j_dLDffPqd-11" target="G7eaZMndY8j_dLDffPqd-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G7eaZMndY8j_dLDffPqd-20" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G7eaZMndY8j_dLDffPqd-13">
+          <mxGeometry x="-0.5034" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G7eaZMndY8j_dLDffPqd-11" value="Transfer Learning" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="340" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="G7eaZMndY8j_dLDffPqd-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="G7eaZMndY8j_dLDffPqd-12" target="G7eaZMndY8j_dLDffPqd-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G7eaZMndY8j_dLDffPqd-12" value="First model is&amp;nbsp;&lt;div&gt;created from&lt;/div&gt;&lt;div&gt;scratch which&amp;nbsp;&lt;/div&gt;&lt;div&gt;requires large dataset like millions&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="320" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="G7eaZMndY8j_dLDffPqd-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G7eaZMndY8j_dLDffPqd-14" target="G7eaZMndY8j_dLDffPqd-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G7eaZMndY8j_dLDffPqd-14" value="A new task is asked to be learnt&amp;nbsp;&lt;div&gt;what the transfer learning does is&amp;nbsp;&lt;/div&gt;&lt;div&gt;takes the last model&#39;s weights&amp;nbsp;&lt;/div&gt;&lt;div&gt;,biases , activation functions and loss functions and Optimizers&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="510" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="G7eaZMndY8j_dLDffPqd-16" value="Now what the model does is create&amp;nbsp;&lt;div&gt;a new layer where the new learning&amp;nbsp;&lt;/div&gt;&lt;div&gt;is kept and then the new model&amp;nbsp;&lt;/div&gt;&lt;div&gt;is now capable of doing task 1&amp;nbsp;&lt;/div&gt;&lt;div&gt;and task 2&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="500" width="230" height="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
